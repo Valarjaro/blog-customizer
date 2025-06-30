@@ -1,9 +1,17 @@
+.title {
+	color: black;
+	font-weight: 800;
+	font-size: 31px;
+	font-family: var(--font-family);
+	text-transform: uppercase;
+}
+
 .container {
 	position: fixed;
 	left: 0;
 	width: 616px;
 	height: 100%;
-	overflow: scroll;
+	overflow: auto;
 	transform: translate(-616px);
 	transition: transform 0.5s ease;
 }
@@ -23,6 +31,10 @@
 	padding: 50px 31px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
+}
+
+.form > .title .form > div:not(:last-child) {
+	margin-bottom: 50px;
 }
 
 .bottomContainer {
