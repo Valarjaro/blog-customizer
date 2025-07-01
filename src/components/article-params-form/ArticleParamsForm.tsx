@@ -77,7 +77,7 @@ export const ArticleParamsForm = ({
 					className={styles.form}
 					onSubmit={handleFormSubmit}
 					onReset={handleFormReset}>
-					<h2 className={styles.title}>Настройки статьи</h2>
+					<h2 className={styles.title}>задайте параметры</h2>
 					<Select
 						title='шрифт'
 						options={fontFamilyOptions}
